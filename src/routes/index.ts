@@ -1,8 +1,8 @@
 import { Router } from 'express';
 import appointmentsRouter from './appointments.routes';
 
-const routes = Router();
+const route = Router();
 
-routes.use('/appointments', appointmentsRouter);
+route.use('/appointments', appointmentsRouter);
 
 export default routes;
